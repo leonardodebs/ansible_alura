@@ -1,0 +1,23 @@
+# Ignorar chaves e arquivos específicos do projeto
+delta*
+
+# Ignorar arquivos temporários do sistema
+*.swp
+*.swo
+*.tmp
+*.bak
+*.old
+
+# Ignorar arquivos do Visual Studio Code
+.vscode/
+
+# Ignorar arquivos de output do Ansible
+*.retry
+
+# Ignorar credenciais/senhas (caso existam)
+*.vault_pass
+*.secret
+
+# Ignorar arquivos do sistema operacional
+.DS_Store
+Thumbs.db
